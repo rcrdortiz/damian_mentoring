@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: com.rortiz
+---
+testFramework: kotlintest
+sourceLanguage: kotlin
