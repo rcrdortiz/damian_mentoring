@@ -1,5 +1,8 @@
 package com.rortiz.hello
 
+import javax.inject.Singleton
+
+@Singleton
 class Mapper {
 
     fun mapToMessage(type: HelloResponseDto.Type): String = when (type) {

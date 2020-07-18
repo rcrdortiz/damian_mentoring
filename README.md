@@ -22,4 +22,10 @@ curl http://localhost:8080/hate
 
 # POST endpoint
 curl -X POST http://localhost:8080
+
+# Injected endpoint
+# GET endopoint
+curl http://localhost:8080/injection/greeting
+or
+curl http://localhost:8080/injection/hate
 ```

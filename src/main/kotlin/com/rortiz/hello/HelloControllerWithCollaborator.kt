@@ -10,7 +10,7 @@ class HelloControllerWithCollaborator(
     private val mapper: Mapper
 ) {
 
-    @Get("{type}")
+    @Get("/{type}")
     fun getHello(type: HelloResponseDto.Type): HelloResponseDto = HelloResponseDto(
         message = mapper.mapToMessage(type),
         code = mapper.mapToCode(type)
